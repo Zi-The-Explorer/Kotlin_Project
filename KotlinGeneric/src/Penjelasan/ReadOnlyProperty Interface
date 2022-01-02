@@ -1,0 +1,5 @@
+- Sebelumnya kita sudah belajar tentang delegate di Kotlin
+- Di Kotlin, ada sebuah Interface generic yang bisa digunakan sebagai delegate property yang
+    sifatnya readOnly, alias val (Immutable), Namanya ReadOnlyProperty
+- ReadOnlyProperty bisa digunakan sebagai delegate, sehingga sebelum data kita kembalikan, kita
+    bisa melakukan sesuatu, atau bahkan mengubah value si property

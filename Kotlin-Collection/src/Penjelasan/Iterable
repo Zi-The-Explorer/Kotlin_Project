@@ -1,0 +1,2 @@
+- Iterable adalah superClass dari Collection interface
+- Iterable adalah general operation untuk melakukan iterasi seluruh data di collection, atau menghapus data di collection

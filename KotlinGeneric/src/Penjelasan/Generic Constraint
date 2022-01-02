@@ -1,0 +1,9 @@
+- Kadang kita ingin membatasi data yang boleh digunakan di Generic parameter type
+- Kita bisa menambahkan constraint di Generic parameter type dengan menyebutkan tipe yang diperbolehkan
+- Secara otomatis, type data yang bisa digunakan adalah type yang sudah kita sebutkan, atau Class-class turunan nya
+- Secara default, Constraint type untuk Generic parameter type adalah Any, Sehingga semua tipe data bisa digunakan
+
+# Where Keyword
+- Kadang kita ingin membatasi tipe data dengan beberapa jenis tipe data di Generic parameter type
+- Secara default, hanya satu tipe data yang bisa digunakan untuk membatasi generic parameter type
+- Jika kita ingin menggunakan lebih dari satu tipe data, kita bisa menggunakan kata kunci where

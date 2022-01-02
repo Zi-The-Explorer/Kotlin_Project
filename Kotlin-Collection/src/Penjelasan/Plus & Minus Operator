@@ -1,0 +1,3 @@
+- Di Kotlin, Ada Operator extension function plus dan minus untuk collection
+- Parameter pertama adalah collection, dan parameter Selanjutnya bisa collection atau element, dan
+    akan menghasilkan collection baru

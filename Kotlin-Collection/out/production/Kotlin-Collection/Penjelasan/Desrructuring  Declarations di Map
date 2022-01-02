@@ -1,0 +1,4 @@
+- Sebelumnya kita telah belajar destructuring declaration
+- Map menyimpan data nya dalam Entry <K,V>, dimana Entry memiliki function component1() untuk
+    mendapatkan Key, dan component2() untuk mendapatkan value
+- Hal ini jadi memungkinkan kita melakukan destructuring di Entry Map

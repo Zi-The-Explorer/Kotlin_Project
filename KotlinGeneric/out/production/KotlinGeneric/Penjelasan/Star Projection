@@ -1,0 +1,4 @@
+- Kadang ada kasus kita tidak peduli dengan Generic parameter type pada object
+- Misal kita hanya ingin mengambil panjang data Array<T>, dan kita tidak peduli dengan isi data T nya
+- Jika kita mengalami kasus seperti ini, kita bisa menggunakan star projection
+- Star Projection bisa dibuat dengan mengganti Generic parameter type dengan karakter *(star, bintang)

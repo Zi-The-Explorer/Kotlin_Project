@@ -1,0 +1,4 @@
+- Di kotlin kita bisa melakukan konversi collection ke jenis collection lain secara mudah
+- Misal kita ingin mengubah dari Array ke List, atau dari Range ke set, atau dari set ke list,
+    bisa dilakukan dengan mudah
+- semua function dimulai dengan kata "to", misal toList, toSet, toMutableList, dan lain lain

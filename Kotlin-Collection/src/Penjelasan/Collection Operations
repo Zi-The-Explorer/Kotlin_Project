@@ -1,0 +1,17 @@
+- Kotlin sudah menyediakan berbagai macam operation yang bisa kita lakukan di collection
+- Sebelumnya kita sudah bahas banyak sekali operasi yang tersedia sebagai function bawaan collection
+- Kotlin juga menyediakan operations tambahan berupa extension function
+- Collection Operations berupa extension function selalu menghasilkan collection baru, tanpa mengubah data
+    di collection aslinya
+- Oleh karena itu, collection operations di kotlin sangat aman ketika dilakukan karena tidak akan mengubah collection
+    aslinya
+
+# Jenis Operations
+- Transformations: Melakukan transformasi terhadap collection
+- Filtering: Melakukan filtering atau seleksi terhadap collection
+- plus and minus: operasi + dan - terhadap collection
+- Grouping: melakukan pemisahan dalam group terhadap collection
+- Retrieving collection part: mengambil sebagian data collection
+- Retrieving Single element: mengambil satu data di collection
+- Ordering: melakukan pengurutan data di collection
+- Aggregate Operations: Melakukan agregasi terhadap data yang ada di collection

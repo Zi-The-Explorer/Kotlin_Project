@@ -1,0 +1,2 @@
+Untuk mengambil sebagian element di collection, selain menggunakan slice, kita juga bisa menggunakan
+    operator take and drop

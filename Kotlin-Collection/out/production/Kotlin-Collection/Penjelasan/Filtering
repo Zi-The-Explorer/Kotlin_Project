@@ -1,0 +1,3 @@
+- Filtering adalah salah satu operasi collection yang sangat populer
+- Di Kotlin, filtering bisa menggunakan predicate berupa lambda yang berisi kondisi filter nya
+- Jika return dari predicate tersebut true, maka data diterima, jika false maka data dibuang

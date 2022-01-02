@@ -1,0 +1,7 @@
+- Selain List, Set dan Map, di kotlin juga terdapat collection yang bernama Sequence
+- Sequence sekilas sama dengan collection lain, namun berbeda cara kerjanya ketika kita
+    menambahkan banyak operasi ke Sequence
+- Collectionn lain, ketika kita menambahkan beberapa operasi, semua akan di eksekusi secara eager
+    setiap proses akan mengembalikan collection baru
+- Berbeda dengan sequence, sequence mengeksekusi semua operasi secara lazy, hanya akan
+    dieksekusi ketika dibutuhkan

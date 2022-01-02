@@ -1,0 +1,11 @@
+- Collection adalah hal umum yang biasa dimiliki bahasa pemrograman, Seperty Java, Python, Ruby
+    dan lain lain
+- Sebuah collection biasanya berisikan sejumlah data, bahkan bisa kosong
+- Kotlin Standar library menyediakan data Collection yang sudah bisa langsung kita gunakan,
+    tanpa tambahan library
+
+# Tipe Collection
+- Secara garis besar, ada 2 jenis collection di kotlin
+    1. Immutable, collection yang hanya mendukung operasi read Only
+    2. Mutable, collection turunan immutable, namun mendukung operasi write juga (add, edit, dan remove)
+

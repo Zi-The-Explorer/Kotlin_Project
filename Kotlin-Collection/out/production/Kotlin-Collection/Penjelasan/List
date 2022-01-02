@@ -1,0 +1,34 @@
+- List, adalah collection yang datanya seperti Array dan memiliki akses data menggunakan index
+- Data List boleh duplicate, artinya kita boleh memasukan data yang sama berkali kali kedalam sebuah list yang sama
+- List ini adalah defaultnya Immutable
+
+# Function di List
+- Didalam Interface List
+
+    size =
+    isEmpty():Boolean = Digunakan untuk mengecek apakah didalam List isi nya kosong
+    contains(E):Boolean = Apakah data tersebut ada didalam nya
+    iterator():Iterator<E> =
+    containsAll(Collection<E>):Boolean = apakah data ada di dalam collection
+    get(Int):E = mengambil data
+    indexOf(E):Int = mengecek data parameter ini ada di index keberapa
+    listIterator():ListIterator<E> = mengecek data last index ada di last index keberapa
+    listIteratol(Int):ListIterator<E> =
+    subList(Int, Int):List<E> =
+
+# Function Mutable LIst
+- Didalam Interface MutableList
+
+    add(E):Boolean
+    remove(E):Boolean
+    addAll(Collection<E>):Boolean
+    addAll(Int, Collection<E>):Boolean
+    removeAll(Collection<E>):Boolean
+    retainAll(Collection<E>):Boolean
+    clear():Unit
+    set(Int, E):E
+    add(Int, E):Unit
+    removeAt(Int):E
+    listIterator():MutableListIterator<E>
+    listIterator(Int):MutableListIterator<E>
+    subList(Int, Int):MutableList<E>

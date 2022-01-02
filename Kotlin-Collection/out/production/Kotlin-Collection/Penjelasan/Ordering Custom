@@ -1,0 +1,2 @@
+- Selain menggunakan comparable bawaan kotlin, kita juga bisa membuat comparable sendiri
+- Ini cocok untuk mengurutkan data yang kita buat sendiri

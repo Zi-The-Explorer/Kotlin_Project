@@ -1,0 +1,2 @@
+- Filtering Testing adalah operation yang bisa digunakan untuk mengecek isi data dari collection
+- Hasil dari filtering testing adalah Boolean, dimana true jika sesuai kondisi, dan false jika tidak sesuai kondisi

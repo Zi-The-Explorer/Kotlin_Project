@@ -1,0 +1,25 @@
+- Set, Adalah collection yang datanya harus unik dan tidak pasti berurut
+- Saat kita memasukan data duplicate ke Set, maka data hanya akan disimpan satu, data
+    duplicatenya tidak akan ditambahkan kedalam Set
+- Set sangat cocok untuk menyimpan data yang emang unik, tidak boleh sama
+- Set menggunakan function hashCode() dan equals() untuk membandingkan apakah sebuah object
+    sama atau tidak, jika hashCode() dan equals() nya sama, maka dianggap data tersebut duplicate,
+    dan tidak akan diterima oleh Set
+
+# Function di Set
+
+    size: Int
+    isEmpty():Boolean
+    contains(E):Boolean
+    iterator():Iterator<E>
+    containsAll(Collection<E>):Boolean
+
+# Function di Mutable Set
+
+    iterator():MutableIterator<E>
+    add(E):Boolean
+    remove(E):Boolean
+    addAll(Collection<E>):Boolean
+    removeAll(Collection<E>):Boolean
+    retainAll(Collection<E>):Boolean
+    clear():Unit

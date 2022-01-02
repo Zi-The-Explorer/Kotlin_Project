@@ -1,0 +1,5 @@
+- Covariant Artinnya kita bisa melakukan subtitusi subtype (child) dengan supertype (parent)
+- Tidak semua jenis Class Generic yang mendukung Covariant, hanya Class Generic yang menggunakan Generic
+    parameter type sebagai return type function
+- Artinya saat kita menggunakan object Contoh<String>, maka bisa di subtitusi menjadi Contoh<Any>
+- Untuk memberi tahu bahwa Generic parameter type tersebut adalah Covariant, kita perlu menggunakan kata kunci out

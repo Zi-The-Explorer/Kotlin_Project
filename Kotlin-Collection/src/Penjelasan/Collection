@@ -1,0 +1,3 @@
+- Semua data collection adalah turunan dari Interface collection
+- Collection digunakan sebagai general operation terhadap struktur data collection, Seperti
+    membaca dan menulis data di collection

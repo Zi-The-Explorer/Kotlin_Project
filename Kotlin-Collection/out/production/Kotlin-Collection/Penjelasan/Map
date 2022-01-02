@@ -1,0 +1,3 @@
+- Map (Atau Dictionary), adalah collection yang berbentuk Key-Value, dimana key berperan sebagai index
+- Key harus unik, jika kita menggunakan Key yang sama, maka data sebelumnya akan di replace oleh data yang baru
+- Tipe data Key bisa menggunakan tipe data apapun sesuai yang kita inginkan

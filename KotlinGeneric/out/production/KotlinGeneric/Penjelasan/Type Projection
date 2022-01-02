@@ -1,0 +1,8 @@
+- Kadang Agak sulit untuk membuat class Generic type yang harus covariant atau contravariant,
+    misal karena memang di class Generic tersebut terdapat input dan output Generic parameter type
+- Namun jika kita mmebuat function untuk memanipulasi data invariant sangatlah sulit,
+    karena Generic parameter type nya harus selalu sama
+- Kita bisa melakukan type projection, yaitu menambahkan informasi covariant atau contravariant
+    di parameter function, ini memaksa isi function untuk melakukan pengecekan
+- Jika covariant, kita tidak boleh mengubah data generic di object
+- Jika Contravariant, kita tidak boleh mengambil data Generic object nya

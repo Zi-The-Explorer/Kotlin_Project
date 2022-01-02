@@ -1,0 +1,4 @@
+- Secara default, saat kita membuat Generic parameter type, sifat parameter tersebut adalah Invariant
+- Invariant artinya tidak boleh di substitusi dengan subtype (child) atau supertype (parent)
+- Artinya saat kita membuat object Contoh<String>, maka tidak sama dengan Contoh<Any>,
+    begitupun sebaliknya, saat membuat object Contoh<Any>, maka tidak samadengan Contoh<String>

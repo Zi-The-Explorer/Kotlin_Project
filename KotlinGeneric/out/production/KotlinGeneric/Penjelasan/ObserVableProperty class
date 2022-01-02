@@ -1,0 +1,12 @@
+- Generic Interface delegate yang sebelumnya kita gunakan (ReadOnlyProperty dan ReadWriteProperty)
+    kita perlu mengatur value datanya secara manual
+- Kadang kita hanaya butuh Melakukan sesuatu sebelum dan setelah data nya diubah
+- Untuk kasus seperty ini, kita bisa menggunakan generic class ObservableProperty
+
+# Function                                      |                           Keterangan
+
+    Delegates.notNull()                                       ReadWriteProperty yang nilai awal bisa null,
+                                                              namun error jika masih null
+
+    Delegates.veotable(value, beforeChange)                   ObservableProperty dengan beforeChange
+    Delegates.observable(value, afterChange)                  ObservableProperty dengan afterChange

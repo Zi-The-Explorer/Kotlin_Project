@@ -1,0 +1,2 @@
+- Selain ReadOnlyProperty, kita juga menggunakan interface generic ReadWriteProperty sebagai delegate
+- ReadWriteProperty bisa digunakan untuk variable var(mutable)

@@ -1,0 +1,4 @@
+- Transformasi Mapping digunakan utntuk mengubah data ke data lain
+- Mapping akan membutuhkan lambda function sebagai parameter, dan akan mengembalikan
+    collection hasil result lambda nya
+- Urutan collection baru hasil dari mapping adalah sama dengan urutan collection aslinya

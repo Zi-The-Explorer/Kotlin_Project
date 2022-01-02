@@ -1,0 +1,7 @@
+- Type erasure adalah proses pengecekan Generic pada saat compile time, dan menghiraukan pengecekan pada saat runtime
+- Type erasure menjadikan informasi Generic yang kita buat akan hilang ketika kode program kita telah di compile menjadi binary file
+- Compiler akan mengubah Generic parameter type menjadi type Any (Atau object di java)
+
+# Problem Type Erasure
+- Karena informasi Generic hilang ketika sudah menjadi binary file
+- Oleh karena itu, konversi tipe data Generic akan berbahaya jika dilakukan secara tidak bijak

@@ -1,0 +1,4 @@
+- Jika kita ingin membuat aggregate secara manual, kita bisa menggunakan operator fold dan reduce
+- Fold dan reduce merupakan operasi yang dilakukan pada element-element yang ada di collection
+    secara iterasi sequential dan mengembalikan hasil
+- Hasil dari fold dan reduce akan digunakan untuk iterasi selanjutnya

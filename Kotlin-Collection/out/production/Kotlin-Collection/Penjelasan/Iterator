@@ -1,0 +1,5 @@
+- Sebelumnya kita sudah bahas tentang iterator di iterable dan MutableIterator di MutableIterable
+- Iterator juga memiliki child interface, yaitu listIteratol dan MutableListIterator
+- ListIterator digunakan oleh List, dan MutableListIterator digunakan oleh MutableList
+- Set tetap menggunakan Iterator
+- Sedangkan Map tidak mendukung Iterator

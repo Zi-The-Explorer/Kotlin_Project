@@ -1,0 +1,5 @@
+- Generic Parameter type tidak hanya bisa digunakan pada Class atau Interface
+- Kita juga bisa menggunakan Generic parameter type di function
+- Generic parameter type yang kita deklarasikan di function, hanya bisa di akses di function tersebut,
+    tidak bisa digunakan diluar function
+- Ini cocok jika kita ingin membuat Generic function, tanpa harus mengubah deklarasi class

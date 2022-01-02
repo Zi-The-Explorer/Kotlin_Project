@@ -1,0 +1,8 @@
+# Ordering : Natural
+- Mengurutkan data sudah menjadi salah satu kebiasaan yang kita lakukan saat membuat program
+- kotlin mendukung operasi untuk mengurutkan collection
+- Pada Materi Kotlin Generic kita sudah belajar tentang Interface Comparable,
+    yaitu interface yang digunakan untuk melakukan perbandingan dua buah object,
+    yang biasanya digunakan untuk mengurutkan data
+- Secara dafault tipe data yang ada di kotlin sudah memiliki Comparable (Seperti Number, Char atau String)
+    Oleh Karena itu kita tidak perlu lagi membuat comparable sendiri untuk mengururtkan data tersebut

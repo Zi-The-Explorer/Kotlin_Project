@@ -1,0 +1,5 @@
+- Contravariant artinya kita bisa melakukan subtitusi supertype (parent) dengan subtype (child)
+- Tidak semua jenis class Generic yang mendukung contravariant, hanya class Generic yang
+    menggunakan Generic parameter type sebagai parameter function
+- Artinya saat kita membuat object Contoh<Any>, maka bisa di subtitusi menjadi Contoh<String>
+- Untuk memberitahu bahwa Generic parameter type tersebut adalah contravariant, kita perlu menggunakan kata kunci in

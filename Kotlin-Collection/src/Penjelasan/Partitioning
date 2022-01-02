@@ -1,0 +1,3 @@
+- Pada filtering by predicate, kita akan menghilangkan data yang tidak masuk kondisi filter
+- Dengan filtering partition, kita akan membagi collection menjadi dua, dimana collection pertama
+    yang masuk filtering, dan collection kedua yang tidak masuk filtering
